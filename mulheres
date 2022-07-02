@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> Projeto Fianl </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <meta name="author" content="Layanne">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        
+      <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="style/main.css">
+      
+    </head>
+    <body class="no-js">
+        
+        <header class="header">
+          <a href="index.html" class="logo-text">Projeto Final</a>
+          
+          <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span class="sr-only">Menu</span></button>
+          
+          <nav class="header__nav">
+            <ul>
+              <li><a href="#">Fomentar programas de incentivo</a></li>
+              <li><a href="#">formação de mulheres</a></li>
+              <li><a href="#">Incentivar liderança feminina</a></li>
+              <li><a href="#">Promover equidade salarial</a></li>
+              <li><a href="#">Quebrar o paradigma de que tecnologia não é para mulher</a></li>
+              <li><a href="#">Mulheres na tecnologia e o caminho para a equidade de gênero</a></li>
+            </ul>
+          </nav>
+        </header>
+        
+        <section class="hero">            
+          <h1 class="hero__title">            
+            Notícias <abbr title="Wordpress">Últimas Notícias</abbr> Mia Lidas
+          </h1>
+          <p class="hero__text">A equidade de gênero no mercado de trabalho é uma luta antiga das mulheres e, para o setor de tecnologia não é diferente. </p>
+          <a href="#" class="hero__btn">Tutorias</a>                      
+        </section>
+
+        <div class="container">
+            <section class="people-cards">
+            <article class="people-cards__card">               
+
+                <img src="img/c01.jpg" alt="Carousel Img" class="people-cards__image">
+
+                <div class="people-cards__avatar">
+                  <img src="img/teamsprite_01.png" alt="Carousel Img">
+                </div>
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
+                  <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+                </div>
+            </article>
+            
+            <article class="people-cards__card">               
+
+                <img src="img/c02.jpg" alt="Carousel Img" class="people-cards__image">
+
+                <div class="people-cards__avatar">
+                  <img src="img/teamsprite_02.png" alt="Carousel Img">
+                </div>
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Segundo um estudo do Instituto Allen, levaremos 116 anos para que a presença feminina alcance o mesmo número da masculina na Ciência da Computação — como eu gostaria de estar aqui para ver isso acontecer antes! Tal como na sociedade, existe uma grande necessidade no setor de tecnologia por uma luta ativa e urgente pela equidade de gênero.</h2>
+                  <p class="people-cards__text">Para mudarmos e encurtarmos esse longo tempo previsto, destaco abaixo alguns pontos que considero importantes para chegarmos lá: na tão sonhada (e desejada) equidade.</p>
+                </div>
+            </article>
+            
+            <article class="people-cards__card">               
+
+                <img src="img/c03.jpg" alt="Carousel Img" class="people-cards__image">
+
+                <div class="people-cards__avatar">
+                  <img src="img/teamsprite_03.png" alt="Carousel Img">
+                </div>
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">O mercado de trabalho, como um todo, foi construído sob a ótica de que homens são ligados a funções relacionadas à razão e objetividade, e mulheres à subjetividade, ao cuidado e ao emocional. </h2>
+                  <p class="people-cards__text">A quebra desse paradigma, o incentivo e o acolhimento desde a infância e adolescência, para que mulheres ocupem também esse posto, quando assim desejarem, é essencial para alcançarmos a equidade de gênero no setor.
+
+</p>
+                </div>
+            </article>
+            
+            <article class="people-cards__card">               
+
+                <img src="img/c04.jpg" alt="Carousel Img" class="people-cards__image">
+
+                <div class="people-cards__avatar">
+                  <img src="img/teamsprite_04.png" alt="Carousel Img">
+                </div>
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Os programas de incentivo e formação feminina na área de tecnologia vêm crescendo e são ótimas oportunidades para a nossa formação e inserção no mercado.</h2>
+                  <p class="people-cards__text">Além da formação funcional em si, muitos programas incentivam mentorias, abordam competências e habilidades interpessoais para que mulheres se adaptem e sigam atuando na área.</p>
+                </div>
+            </article>           
+                
+        </section>
+        </div>
+        
+        <section class="content">
+        <div class="container">
+        
+          
+          <article>
+            <h3>Afinal, o abandono das funções em tecnologia por mulheres é 45% superior ao de homens, sendo boa parte dos fatores causais a desigualdade salarial, cultura não inclusiva, falta de representatividade e dupla jornada.</h3>
+            <p>Ocasionalmente, mulheres que desejam desenvolver carreiras na tecnologia são expostas à hostilidade e julgamento. </p>            
+            <a href="#" class="button button-primary">BUTTON</a>
+            <a href="#" class="button button-secundary">BUTTON</a>
+          </article>
+
+          <article>
+            <h3>Assim, temos uma excelente oportunidade de criar, desenvolver e fortalecer a cultura de trabalho em que a prevalência seja de um ambiente diverso e inclusivo, que abarque não só o preconceito relacionado a gênero, mas a todos os grupos minorizados.</h3>
+            <p> Isso acontece desde o processo de formação educacional, participação em processos seletivos e contratação e onboarding, uma vez que a predominância neste mercado é de uma cultura masculina com vieses de gênero e, portanto, excludente.</p>
+            <p>Entre os pesquisados, 57% das pessoas iniciaram sua carreira na tecnologia em centro de ensino formal mas ainda há um grande percentual que começam a aprender de forma livre; e em relação as mulheres, pessoas do sexo masculino possuem maior índice de escolaridade. </p>
+          </article>  
+          </div>
+        </section>
+        
+        
+        <section class="last-articles">
+            <div class="last-articles__title">
+                <div class="container">
+                    <h2>Atuação das mulheres na tecnologia</h2>
+                </div>
+            </div>
+
+          <div class="last-articles__thumbs">
+              <a href="#"><img src="img/articles/01.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/02.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/03.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/04.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/05.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/06.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/07.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/08.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/09.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/10.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/11.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/12.jpg" alt=""></a>
+          </div>
+        </section>
+
+        <div class="laptop-slider">            
+          <div class="slideshow">
+            <figure><img alt="" src="img/slider/slide-01.png" /></figure>
+            <figure><img alt="" src="img/slider/slide-02.png" /></figure>
+            <figure><img alt="" src="img/slider/slide-01.png" /></figure>
+            <figure><img alt="" src="img/slider/slide-02.png" /></figure>
+            <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
+            <span class="next" style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
+          </div>                    
+        </div>
+        
+        <section class="quote-container">
+
+          <div class="quote-slideshow">
+            <figure>
+              <h2>Segundo o estudo realizado pela CGEE (Centro de Gestão e Estudos Estratégicos), no campo acadêmico as mulheres já representam 60% desse universo, e com isso especialistas esperam que em breve tenha uma crescente ocupação em cargos na área da TI.</h2>
+              <figcaption>
+                Iniciativas como o curso da ATN podem ser ferramentas para combater o machismo que infelizmente ainda acontece na área, ao qual é um dos principais motivos pela pequena presença feminina no segmento.
+              </figcaption>
+            </figure>
+            <figure>
+              <h2>Esse percentual de cargos ocupados por mulheres na TI, poderia crescer, pois não é por falta de capacitação, pois de acordo com a ATN (Associação Telecentro de Informação e Negócio), 36.300 mulheres formadas na área buscam colocação no mercado de trabalho.</h2>
+              <figcaption>
+               Dentro das organizações, em 64,9% dos casos, as mulheres representam no máximo 20% das equipes de trabalho em tecnologia. 
+              </figcaption>
+            </figure>
+            <span class="prev" style="display:none;"><i class="fas fa-angle-left fa-2x"></i></span>
+            <span class="next" style="display:none;"><i class="fas fa-angle-right fa-2x"></i></span>
+          </div>
+          
+          
+          
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <h2 class="footer__logo">% mulheres na equipe</h2>
+        
+                <p>Os principais cargos e áreas ocupados pelas mulheres nas equipes de tecnologia são: desenvolvedora, analista, gerência, project, tester e design.</p>
+
+                <p>Nos últimos 200 anos, algumas mulheres tiveram papéis importantes ao criarem componentes fundamentais de computadores, wifi, programação e tornando-se até pioneiras em alguns dos maiores feitos da NASA. Conheça agora algumas histórias de mulheres de destaque para se inspirar!</p>
+
+              <ul class="footer__links">
+                <li><a href="#">Grace Hopper 1906-1992
+</a></li>
+                <li><a href="#">Hedy Lamarr 1914-2000
+</a></li>
+                <li><a href="#">Katherine Johnson 1918-2020</a></li>
+                <li><a href="#">Nina Silva 
+</a></li>
+                <li><a href="#">Interesse de mulheres em vagas de TI cresce 22% em 2021
+</a></li>
+              </ul>
+            </div>
+        </footer>
+        
+        <script src="js/menu.js"></script>        
+        <script src="js/carousel.js"></script>
+
+        <script src="js/main.js"></script>
+		<script>
+		
+		function Menu(config){
+    this.nav = ( typeof config.container === 'string') ? document.querySelector(config.container) : config.container
+    
+    this.btn = ( typeof config.toggleBtn === 'string') ? document.querySelector(config.toggleBtn) : config.toggleBtn
+    
+    this.maxWidth = config.widthEnabled || false;
+    
+    var _opened = false;
+    var _this = this;
+    
+    this.btn.removeAttribute('style')
+    //closeMenu()
+    
+    if(this.maxWidth){
+        window.addEventListener('resize', e => {
+            if(window.innerWidth > _this.maxWidth){
+                _this.nav.removeAttribute('style')
+                _opened = true;
+            } else if(!this.nav.getAttribute('style')){
+                closeMenu();
+            }
+        })
+        
+        if(window.innerWidth <= _this.maxWidth){
+            closeMenu();
+        }
+    }
+    
+    this.btn.addEventListener('click', openOrClose )
+    
+    function openOrClose(){
+        if(!_opened){
+            openMenu()
+        } else {
+            closeMenu()
+        }
+    }
+    
+    function openMenu(){
+        var _top = _this.nav.getBoundingClientRect().top + 'px'
+        
+        var _style = {
+            maxHeight: 'calc(100vh - '+ _top +' )',
+            overflow: 'hidden'
+        }
+        
+        applyStyleToNav(_style)
+        
+        _opened = true;
+    }
+    
+    function applyStyleToNav(_style){
+        Object.keys(_style).forEach( stl => {
+            _this.nav.style[stl] = _style[stl]
+        } )
+    }
+    
+    function closeMenu(){
+        var _style = {
+            maxHeight: '0px',
+            overflow: 'hidden'
+        }
+        
+        applyStyleToNav(_style)
+        
+        _opened = false;
+    }
+    
+}
+(function(){
+    var $body = document.querySelector('body');
+    $body.classList.remove('no-js')
+    $body.classList.add('js')
+    
+        
+    var menu = new Menu({
+        container: '.header__nav',
+        toggleBtn: '.header__btnMenu',
+        widthEnabled: 1024 
+    })
+    
+    var carouselImgs = new Carousel({
+        container: '.laptop-slider .slideshow',
+        itens: 'figure',
+        btnPrev: '.prev',
+        btnNext: '.next'
+    })
+    
+    var carouselQuotes = new Carousel({
+        container: '.quote-slideshow',
+        itens: 'figure',
+        btnPrev: '.prev',
+        btnNext: '.next'
+    })
+})()
+function Carousel(config){
+    this.container = ( typeof config.container === 'string') ? document.querySelector(config.container) : config.container
+    
+    this.itens = (typeof config.itens === 'string') ? this.container.querySelectorAll(config.itens) : config.itens
+    
+    this.btnPrev = (typeof config.btnPrev === 'string') ? this.container.querySelector(config.btnPrev) : config.btnPrev
+    
+    this.btnNext = (typeof config.btnNext === 'string') ? this.container.querySelector(config.btnNext) : config.btnNext
+    
+    var _this = this;
+    var _currentSlide = 0
+    
+    init()
+    
+    function init(){
+        var _show = _this.container.querySelectorAll('.show')
+        
+        Array.prototype.forEach.call(_show, function(sh){
+            sh.classList.remove('show')
+        })
+        _this.itens[0].classList.add('show')
+        _this.btnNext.removeAttribute('style')
+        _this.btnPrev.removeAttribute('style')
+        
+        addListeners()        
+    }
+    
+    function addListeners(){
+        _this.btnNext.addEventListener('click', showNextSlide)
+        _this.btnPrev.addEventListener('click', showPrevSlide)
+    }
+    
+    function showNextSlide(){
+        _currentSlide++;
+        showSlide()
+    }
+    
+    function showPrevSlide(){
+        _currentSlide--;
+        showSlide()
+    }
+    
+    function showSlide(){
+        var qtd = _this.itens.length;
+        var slide = _currentSlide % qtd;
+        slide = Math.abs(slide);
+        
+        _this.container.querySelector('.show').classList.remove('show');
+        _this.itens[slide].classList.add('show')
+        
+    }
+    
+
+		</script>
+
+    </body>
+</html>
